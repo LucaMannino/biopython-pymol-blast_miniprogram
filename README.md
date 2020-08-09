@@ -1,5 +1,5 @@
 # biopython-pymol-blast_miniprogram
-This is a python program, it consist of a single a .py file. In order to run all of the program functionalities properly at least one .pdb file is needed of a protein sequence, these files are available from protein data bank (link:https://www.rcsb.org/) for one functionality a protein database file in text format is needed as well these can be downloaded from the National Center for Biotechnology Information website available at: ttps://ftp.cbi.nlm.nih.gov/blast/db/
+This is a python program, it consist of a single a .py file. In order to run all of the program functionalities properly at least one .pdb file is needed of a protein sequence, these files are available from protein data bank (link:https://www.rcsb.org/) for one functionality a protein database file in text format is needed as well these can be downloaded from the National Center for Biotechnology Information website available at: https://ftp.cbi.nlm.nih.gov/blast/db/
 
 The necessary files to run the program should be placed same directory as the python program is run in , this include .pdb file, the database for local blastp.
 
