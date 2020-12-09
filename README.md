@@ -1,7 +1,7 @@
 # biopython-pymol-blast_miniprogram
 This is a python program, it consist of a single a .py file. In order to run all of the program functionalities properly at least one .pdb file is needed of a protein sequence, these files are available from protein data bank (link:https://www.rcsb.org/) for one functionality a protein database file in text format is needed as well these can be downloaded from the National Center for Biotechnology Information website available at: https://ftp.cbi.nlm.nih.gov/blast/db/
 
-The necessary files to run the program should be placed same directory as the python program is run in , this include .pdb file, the database for local blastp.
+The necessary files to run the program should be placed same directory as the python program is run in, this include .pdb file, the database for local blastp.
 
 Initially the program will ask the user to input the .pdb file name and the sequence id. The sequence id corresponds to the protein name, this is usually the file name without the .pdb unless the file name has been modified. This information is needed to run the program properly.
 
@@ -17,4 +17,4 @@ The third option for the program produces a text file that can be used as a pymo
 
 The user will be able to choose the colour of secondary structures as well as 1 among 3 different ways to visualise the molecule, either as a putty cartoon, as a balls and sticks or as a normal cartoon.
 
-The last program functionality consists in a blastp search. This is achieved by searching against a local database an example database is provided however more pertinent sequences can be downloaded from NCBI website. These databases are usually downloaded as zipped files, for the program to run properly however the file needs to be exported (like with the command gzip) before running this portion of the program. For this last task BLAST software also need to have been downloaded, BLAST software can be downloaded several ways one of which is through the NCBI website. The program will not download BLAST software.
+The last program functionality consists in a blastp search. This is achieved by searching against a local database an example database is provided however more pertinent sequences can be downloaded from NCBI website. These databases are usually downloaded as zipped files, for the program to run properly however the file needs to be exported (like with the command gzip) before running this portion of the program. For this last task BLAST software also need to have been downloaded, BLAST software can be downloaded several ways one of which is through the NCBI website. The program will not download BLAST software hence to run all application local BLAST needs to already have been downloaded.
